@@ -1,0 +1,93 @@
+{
+  "positions" : [ {
+    "id" : "/newNode_12",
+    "name" : "col#0",
+    "actionTitles" : [ "Текст", null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_3",
+    "name" : "col#0",
+    "boundsTo" : "/newNode_12",
+    "title" : "События",
+    "actionTitles" : [ null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_18",
+    "name" : "col#0",
+    "boundsTo" : "",
+    "title" : "Интенты",
+    "actionTitles" : [ null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_9",
+    "name" : "col#1",
+    "boundsTo" : "",
+    "title" : "Генерация ответа",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_16",
+    "name" : "col#1",
+    "boundsTo" : "",
+    "title" : "Получение файла",
+    "actionTitles" : [ null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_11",
+    "name" : "col#2",
+    "actionTitles" : [ "Текст", null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_13",
+    "name" : "col#2",
+    "boundsTo" : "/newNode_11",
+    "title" : "Интенты",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_6",
+    "name" : "col#2",
+    "actionTitles" : [ null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_4",
+    "name" : "col#3",
+    "actionTitles" : [ null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_7",
+    "name" : "col#3",
+    "actionTitles" : [ null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_10",
+    "name" : "col#3",
+    "actionTitles" : [ null, null ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_14",
+    "name" : "col#3",
+    "boundsTo" : "",
+    "title" : "Перевод на оператора",
+    "actionTitles" : [ ],
+    "x" : 0,
+    "y" : 0
+  }, {
+    "id" : "/newNode_15",
+    "name" : "col#4",
+    "actionTitles" : [ "Текст" ],
+    "x" : 0,
+    "y" : 0
+  } ]
+}

@@ -1,0 +1,100 @@
+{
+    "fulfillment": {
+        "settings": {
+            "default": {
+                "url": ""
+            },
+            "channels": []
+        },
+        "actions": [
+            {
+                "state": "/newNode_4",
+                "color": "#F7DAE1",
+                "action": "Ошибка сервиса"
+            },
+            {
+                "state": "/newNode_6",
+                "color": "#FCF9CA",
+                "action": "Проверка ошибки"
+            },
+            {
+                "state": "/newNode_7",
+                "color": "#F7DAE1",
+                "action": "Слишком большой запрос"
+            },
+            {
+                "state": "/newNode_10",
+                "color": "#F7DAE1",
+                "action": "Любая другая ошибка"
+            },
+            {
+                "state": "/newNode_12",
+                "color": "#FFFFFF",
+                "action": "Начало",
+                "collapsed": false
+            },
+            {
+                "state": "/newNode_11",
+                "color": "#FFFFFF",
+                "action": "Нет инф./не по теме"
+            },
+            {
+                "state": "/newNode_9",
+                "color": "#FFFFFF",
+                "action": "Шаг 1",
+                "collapsed": false
+            },
+            {
+                "state": "/newNode_14",
+                "color": "#FFFFFF",
+                "action": "Шаг 15"
+            },
+            {
+                "state": "/newNode_15",
+                "color": "#FFFFFF",
+                "action": "Шаг 16",
+                "collapsed": false
+            },
+            {
+                "state": "/newNode_16",
+                "color": "#FFFFFF",
+                "action": "Шаг 17"
+            },
+            {
+                "state": "/newNode_18",
+                "color": "#FFFFFF",
+                "action": "Шаг 19"
+            }
+        ],
+        "hasTransferToOperatorBlock": "true",
+        "isSimpleViewLlmRequest": true,
+        "groups": [],
+        "conditions": {},
+        "arrayActions": {},
+        "startSettings": {
+            "blockId": "/newNode_12",
+            "newLogicCatchAll": false
+        }
+    },
+    "catchAll": {
+        "phrases": [
+            "Извините, непонятно"
+        ],
+        "transferToOperator": {
+            "enable": false,
+            "messageToUser": "Вы будете переведены на оператора"
+        },
+        "globalEventNoMatchTransition": "/newNode_9"
+    },
+    "tariffLimit": {
+        "phrases": [
+            "Извините, работа временно приостановлена"
+        ]
+    },
+    "speechNotRecognized": {},
+    "entities": [
+        {
+            "name": "new_entity_0"
+        }
+    ]
+}
